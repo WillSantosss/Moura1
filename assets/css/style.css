@@ -1,0 +1,104 @@
+.bg-primary {
+  background-color: #98523c;
+}
+
+.bg-primary {
+  background-color: #98523c !important;
+}
+
+.bg-dark {
+  background-color: #98523c !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: var(--bs-light);
+  background-color: var(--bs-light) !important;
+}
+
+.btn:hover {
+  color: var(--bs-light);
+  background-color: var(--bs-light);
+  border-color: var(--bs-light);
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #98523c !important;
+}
+
+a:hover {
+  color: #25d366 !important;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #98523c !important;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+a:hover {
+  color: #25d366;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #98523c;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #98523c !important;
+  }
+}
+
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+  color: var(--bs-btn-active-color);
+  background-color: rgba(37,211,102,0.6);
+  border-color: rgba(37,211,102,0.6);
+}
+
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+  color: var(--bs-btn-active-color);
+  background-color: #000000;
+  border-color: #000000;
+}
+
+@media (min-width: 992px) {
+  .py-lg-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+a:hover {
+  color: #25d366 !important;
+  text-decoration: underline;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(37,211,102,0.6) !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: var(--bs-light) !important;
+}
+
+::selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #25d366;
+  background-color: var(--bs-light) !important;
+}
+
