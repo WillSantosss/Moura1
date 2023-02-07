@@ -60,12 +60,6 @@ a:hover {
 
 .btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
   color: var(--bs-btn-active-color);
-  background-color: rgba(37,211,102,0.6);
-  border-color: rgba(37,211,102,0.6);
-}
-
-.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
-  color: var(--bs-btn-active-color);
   background-color: #000000;
   border-color: #000000;
 }
@@ -83,11 +77,11 @@ a:hover {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 .2rem rgba(37,211,102,0.6) !important;
+  box-shadow: 0 0 0 .2rem rgba(152,82,60,0.6) !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
+  color: #98523c;
   background-color: var(--bs-light) !important;
 }
 
@@ -97,8 +91,11 @@ a:hover {
   text-shadow: none;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #25d366;
-  background-color: var(--bs-light) !important;
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: rgba(152,82,60,0.6);
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(152,82,60,0.6);
 }
 
