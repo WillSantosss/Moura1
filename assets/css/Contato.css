@@ -3,7 +3,7 @@
   font-size: 16px;
   width: 200px;
   height: 50px;
-  background-color: #e74c3c;
+  background-color: #98523c !important;
   border-color: transparent;
 }
 
@@ -16,7 +16,7 @@
 
 .getintouch {
   height: auto;
-  /*background-image: url("../../assets/img/Get%20In%20touch/GetInTouch.png");*/
+  /*background-image: url("Get In touch/GetInTouch.png");*/
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -27,19 +27,6 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
 
 input[type="text"], input[type="email"], input[type="tel"], textarea {
   border-radius: 8px !important;
-}
-
-.btn-primary:hover {
-  color: #fff;
-  background-color: #4daade;
-  border-color: #4daade;
-  box-shadow: 0px 10px 15px rgba(157,157,157,0.4);
-}
-
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #4daade;
-  border-color: #4daade;
 }
 
 .modern-form {
@@ -68,5 +55,26 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
 .modern-form__form-control--textarea {
   height: 95px !important;
   resize: none;
+}
+
+.submit-now:hover {
+  color: #98523c;
+  border: solid 1px;
+}
+
+.submit-now:hover {
+  color: #98523c !important;
+}
+
+@media (max-width: 768px) {
+  #mainNav {
+    background: #98523c;
+    /*color: #ffffff;*/
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+  }
 }
 

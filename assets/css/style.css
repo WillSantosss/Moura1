@@ -10,15 +10,11 @@
   background-color: #98523c !important;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: var(--bs-light);
-  background-color: var(--bs-light) !important;
-}
-
 .btn:hover {
   color: var(--bs-light);
   background-color: var(--bs-light);
-  border-color: var(--bs-light);
+  border-color: var(--bs-success);
+  border: solid 1px;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -26,7 +22,8 @@
 }
 
 a:hover {
-  color: #25d366 !important;
+  color: var(--bs-success);
+  /*text-decoration: underline;*/
 }
 
 #mainNav .navbar-brand {
@@ -36,13 +33,12 @@ a:hover {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
-a:hover {
-  color: #25d366;
-}
-
-@media (min-width: 992px) {
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #98523c;
+@media (max-width: 768px) {
+  #mainNav .navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--bs-light) !important;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   }
 }
 
@@ -71,17 +67,12 @@ a:hover {
   }
 }
 
-a:hover {
-  color: #25d366 !important;
-  text-decoration: underline;
-}
-
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 .2rem rgba(152,82,60,0.6) !important;
+  box-shadow: 0 0 0 .2rem var(--bs-green) !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #98523c;
+  color: var(--bs-success);
   background-color: var(--bs-light) !important;
 }
 
@@ -103,6 +94,20 @@ a:hover {
 }
 
 .p-0 {
-  padding: 50px 0px 0px 0px !important;
+  padding: 0px 0px 0px 0px !important;
+}
+
+.emailctn:hover {
+  color: #98523c !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #98523c;
+  border-color: #98523c;
+}
+
+.link-secondary:hover, .link-secondary:focus {
+  color: #98523c !important;
 }
 
