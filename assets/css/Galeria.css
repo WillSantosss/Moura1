@@ -13,7 +13,7 @@
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #98523c !important;
+  color: var(--bs-light) !important;
 }
 
 .text-primary {

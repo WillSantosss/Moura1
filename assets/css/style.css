@@ -18,7 +18,7 @@
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #98523c !important;
+  color: var(--bs-white) !important;
 }
 
 a:hover {
@@ -29,7 +29,7 @@ a:hover {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #98523c !important;
+  color: var(--bs-border-color) !important;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -37,7 +37,7 @@ a:hover {
   #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--bs-light) !important;
+    color: var(--bs-border-color) !important;
     font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   }
 }
@@ -50,7 +50,7 @@ a:hover {
 
 @media (min-width: 992px) {
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #98523c !important;
+    color: var(--bs-body-bg) !important;
   }
 }
 
@@ -109,5 +109,30 @@ a:hover {
 
 .link-secondary:hover, .link-secondary:focus {
   color: #98523c !important;
+}
+
+#mainNav {
+  border-bottom: 1px solid rgba(33,37,41,.1);
+  background-color: #98523c !important;
+  font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+  transition: all .2s;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+}
+
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--bs-border-color);
+  background-color: transparent;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
 }
 
