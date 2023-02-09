@@ -121,6 +121,7 @@ a:hover {
   #mainNav {
     border-color: transparent;
     background-color: transparent;
+    box-shadow: none !important;
   }
 }
 
@@ -170,6 +171,14 @@ a:hover {
 @media (min-width: 992px) {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
     color: #ffff !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink {
+    background-color: #98523c;
+    border-bottom: 1px solid rgba(33,37,41,.1);
+    box-shadow: inset 0px 3px 4px 0px #00000025, 0px 3px 4px rgba(0,0,0,0.7) !important;
   }
 }
 
