@@ -11,7 +11,7 @@
 }
 
 span.plus-k::after {
-  content: 'K +';
+  content: '+';
 }
 
 span.plus::after {

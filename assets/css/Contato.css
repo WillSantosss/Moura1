@@ -68,7 +68,7 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
 
 @media (max-width: 768px) {
   #mainNav {
-    background: #98523c;
+    background: #98523c !important;
     /*color: #ffffff;*/
   }
 }
