@@ -178,7 +178,7 @@ a:hover {
   #mainNav.navbar-shrink {
     background-color: #98523c;
     border-bottom: 1px solid rgba(33,37,41,.1);
-    box-shadow: inset 0px 3px 4px 0px #00000025, 0px 3px 4px rgba(0,0,0,0.7) !important;
+    box-shadow: inset 0px 3px 4px 0px #00000025, 0px 3px 4px rgba(0,0,0,0.5) !important;
   }
 }
 
