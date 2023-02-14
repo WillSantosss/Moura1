@@ -70,11 +70,6 @@ a:hover {
   box-shadow: 0 0 0 .2rem var(--bs-green) !important;
 }
 
-.btn-3.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #98523c;
-  background-color: var(--bs-light) !important;
-}
-
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: var(--bs-success);
   background-color: var(--bs-light) !important;
@@ -106,9 +101,9 @@ a:hover {
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #98523c;
-  border-color: #98523c;
+  color: var(--bs-success);
+  background-color: var(--bs-success);
+  border-color: var(--bs-success);
 }
 
 .link-secondary:hover, .link-secondary:focus {
@@ -189,12 +184,6 @@ a:hover {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 .2rem rgba(25,135,84,0.6) !important;
-}
-
-.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
-  color: var(--bs-btn-active-color);
-  background-color: var(--bs-success);
-  border-color: var(--bs-success);
 }
 
 .btn-primary {
