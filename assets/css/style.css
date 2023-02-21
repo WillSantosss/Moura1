@@ -61,8 +61,8 @@ a:hover {
 
 @media (min-width: 992px) {
   .py-lg-5 {
-    padding-top: 1rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
   }
 }
 
@@ -146,7 +146,7 @@ a:hover {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: rgb(255,255,255);
+  /*color: rgb(255,255,255) !important;*/
 }
 
 @media (min-width: 992px) {
@@ -190,5 +190,35 @@ a:hover {
   background-color: #f05f40;
   border-color: #98523c;
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  #insta-icon {
+    width: 15% !important;
+    height: 15% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .corretoramoura {
+    width: 85% !important;
+    height: 85%;
+  }
+}
+
+@media (min-width: 361px) {
+  .corretoramoura {
+    width: 30%;
+    height: 30%;
+  }
+}
+
+.telctn {
+  text-decoration: none;
+}
+
+#insta-icon:hover {
+  border-bottom: #98523c solid 2px;
+  border-right: #98523c solid 2px;
 }
 

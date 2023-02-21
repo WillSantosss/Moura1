@@ -90,3 +90,11 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
   }
 }
 
+.likedinlink:hover {
+  color: #98523c;
+}
+
+.telctn:hover {
+  color: #98523c!important;
+}
+
