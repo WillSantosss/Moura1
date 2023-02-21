@@ -42,12 +42,6 @@ a:hover {
 }
 
 @media (min-width: 992px) {
-  #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255,255,255,0.85) !important;
-  }
-}
-
-@media (min-width: 992px) {
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: var(--bs-body-bg) !important;
   }
@@ -146,7 +140,7 @@ a:hover {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  /*color: rgb(255,255,255) !important;*/
+  color: rgb(255,255,255) !important;
 }
 
 @media (min-width: 992px) {
@@ -220,5 +214,17 @@ a:hover {
 #insta-icon:hover {
   border-bottom: #98523c solid 2px;
   border-right: #98523c solid 2px;
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #ffffff !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #98523c !important;
+  }
 }
 

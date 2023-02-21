@@ -33,3 +33,9 @@ span.plus::after {
   align-items: center;
 }
 
+@media (min-width: 992px) {
+  mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: rgba(255,255,255,0.6) !important;
+  }
+}
+
