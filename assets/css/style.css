@@ -211,11 +211,6 @@ a:hover {
   text-decoration: none;
 }
 
-#insta-icon:hover {
-  border-bottom: #98523c solid 2px;
-  border-right: #98523c solid 2px;
-}
-
 @media (min-width: 992px) {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #ffffff !important;
