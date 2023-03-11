@@ -80,7 +80,7 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
 
 @media (max-width: 768px) {
   .masthead {
-    background-image: url('../../assets/img/stella_fachada.jpg');
+    background-image: url('../../assets/img/stella_fachada.jpg?h=1c5ab6bff5d6b4c7e09d0cb16c698967');
   }
 }
 
