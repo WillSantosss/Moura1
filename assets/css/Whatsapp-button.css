@@ -17,6 +17,22 @@
 
 .btn-wsp:hover {
   background: var(--bs-body-bg);
+  color: #131416;
+}
+
+.btn-wsp.stella:hover {
+  background: var(--bs-body-bg);
+  color: #98523c;
+}
+
+.btn-wsp.portugal:hover {
+  background: var(--bs-body-bg);
+  color: #bababa;
+}
+
+.btn-wsp.itaim-bibi:hover {
+  background: var(--bs-body-bg);
+  color: #131416;
 }
 
 @media only screen and (min-width:320px) and (max-width:768px) {

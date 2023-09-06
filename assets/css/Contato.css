@@ -62,13 +62,42 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
   border: solid 1px;
 }
 
+.submit-now.itaim-bibi:hover {
+  color: #131416 !important;
+}
+
+.submit-now.portugal:hover {
+  color: #bababa !important;
+}
+
 .submit-now:hover {
   color: #98523c !important;
 }
 
 @media (max-width: 990px) {
-  #mainNav {
+  .navbar-light {
     background: #98523c !important;
+    /*color: #ffffff;*/
+  }
+}
+
+@media (max-width: 990px) {
+  .navbar-light.portugal-navbar {
+    background: #bababa !important;
+    /*color: #ffffff;*/
+  }
+}
+
+@media (max-width: 990px) {
+  .navbar-light.stella-navbar {
+    background: #98523c !important;
+    /*color: #ffffff;*/
+  }
+}
+
+@media (max-width: 990px) {
+  .navbar-light.itaim-bibi-navbar {
+    background: #131416 !important;
     /*color: #ffffff;*/
   }
 }
@@ -80,7 +109,19 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
 
 @media (max-width: 768px) {
   .masthead {
-    background-image: url('../../assets/img/stella_fachada.jpg?h=1c5ab6bff5d6b4c7e09d0cb16c698967');
+    background-image: url('../../assets/img/stella_fachada.webp');
+  }
+}
+
+@media (max-width: 768px) {
+  .masthead.itaim-bibi {
+    background-image: url('../../assets/img/itaim-bibi/itaim-mobile.webp');
+  }
+}
+
+@media (max-width: 768px) {
+  .masthead.portugal {
+    background-image: url('../../assets/img/portugal/Portugal-mobile.webp');
   }
 }
 
@@ -96,5 +137,46 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
 
 .telctn:hover {
   color: #98523c!important;
+}
+
+.telctn.itaim-bibi:hover {
+  color: rgba(19,20,22,0.7)!important;
+}
+
+.telctn.portugal:hover {
+  color: rgb(186,186,186)!important;
+}
+
+.masthead {
+}
+
+.submit-now.itaim-bibi:hover {
+  background: #ffffff !important;
+}
+
+.submit-now.portugal:hover {
+  background: #ffffff !important;
+}
+
+.submit-now.itaim-bibi {
+  background: #131416 !important;
+}
+
+.submit-now.portugal {
+  background: #bababa !important;
+}
+
+.bs-icon-circle.bs-icon-primary.bs-icon.portugal {
+  background-color: #ffffff;
+  color: #bababa;
+}
+
+h1 {
+}
+
+@media (max-width: 460px) {
+  .portugalh1 {
+    font-size: 53px !important;
+  }
 }
 

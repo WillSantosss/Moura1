@@ -1,13 +1,32 @@
-.bg-primary {
-  background-color: #98523c;
+.stella {
 }
 
 .bg-primary {
+  background-color: #98523c !important;
+}
+
+.bg-primary.itaim-bibi {
+  background-color: #131416 !important;
+}
+
+.bg-primary.portugal {
+  background-color: #bababa !important;
+}
+
+.bg-primary.itaim-bibi] {
   background-color: #98523c !important;
 }
 
 .bg-dark {
   background-color: #98523c !important;
+}
+
+.bg-dark.itaim-bibi {
+  background-color: #131416 !important;
+}
+
+.bg-dark.portugal {
+  background-color: #bababa !important;
 }
 
 .btn:hover {
@@ -19,10 +38,6 @@
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: var(--bs-white) !important;
-}
-
-a:hover {
-  color: var(--bs-success);
 }
 
 #mainNav .navbar-brand {
@@ -69,6 +84,11 @@ a:hover {
   background-color: var(--bs-light) !important;
 }
 
+.btn-primary.itaim-bibihover, .btn-primary.itaim-bibifocus, .btn-primary.itaim-bibiactive {
+  color: var(--bs-success);
+  background-color: var(--bs-light) !important;
+}
+
 ::selection {
   color: #fff;
   background: #212529;
@@ -83,6 +103,22 @@ a:hover {
   box-shadow: 0 0 0 .25rem rgba(152,82,60,0.6);
 }
 
+.form-control.itaim-bibi:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: rgba(19,20,22,0.6);
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(19,20,22,0.6);
+}
+
+.form-control.portugal:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: rgba(186,186,186,0.6);
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(186,186,186,0.6);
+}
+
 .p-1 {
 }
 
@@ -92,6 +128,14 @@ a:hover {
 
 .emailctn:hover {
   color: #98523c !important;
+}
+
+.emailctn.itaim-bibi:hover {
+  color: rgba(19,20,22,0.7) !important;
+}
+
+.emailctn.portugal:hover {
+  color: rgb(186,186,186) !important;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
@@ -104,7 +148,7 @@ a:hover {
   color: #98523c !important;
 }
 
-#mainNav {
+.navbar-light {
   border-bottom: 1px solid rgba(33,37,41,.1);
   background-color: transparent;
   font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
@@ -131,8 +175,26 @@ a:hover {
 }
 
 @media (min-width: 769px) {
+  .masthead.itaim {
+    background-image: url('../../assets/img/itaim-bibi/itaim-bibi-topo.webp');
+  }
+}
+
+@media (min-width: 769px) {
   .masthead {
-    background-image: url('../../assets/img/Capa%20principal%20Moura.svg?h=56bad636f03eae2fbae329598703767c');
+    background-image: url('../../assets/img/Capa%20principal%20Moura.svg');
+  }
+}
+
+@media (min-width: 769px) {
+  .masthead.portugal {
+    background-image: url('../../assets/img/itaim-bibi/itaim-bibi-topo.webp');
+  }
+}
+
+@media (min-width: 769px) {
+  .masthead.itaim-bibi {
+    background-image: url('../../assets/img/itaim-bibi/itaim-bibi-topo.webp');
   }
 }
 
@@ -153,6 +215,7 @@ a:hover {
   #mainNav.navbar-shrink {
     background-color: #98523c;
     border-bottom: 1px solid rgba(33,37,41,.1);
+    color: #ffffff;
   }
 }
 
@@ -182,7 +245,7 @@ a:hover {
 
 .btn-primary {
   background-color: #f05f40;
-  border-color: #98523c;
+  border-color: transparent;
   color: #fff;
 }
 
@@ -218,8 +281,73 @@ a:hover {
 }
 
 @media (min-width: 992px) {
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.stella:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link.stella:focus:hover {
     color: #98523c !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.itaim-bibi:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link.itaim-bibi:focus:hover {
+    color: #131416 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.portugal:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link.portugal:focus:hover {
+    color: #bababa !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #131416 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-light.stella-navbar.navbar-shrink {
+    background-color: #98523c !important;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-light.stella-navbar.navbar-shrink {
+    background-color: #98523c !important;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-light.stella-navbar.navbar-shrink {
+    background-color: #98523c !important;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-light.portugal-navbar.navbar-shrink {
+    background-color: #bababa !important;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-light.itaim-bibi-navbar.navbar-shrink {
+    background-color: #131416 !important;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #ccc !important;
+  }
+}
+
+@media (max-width: 300px) {
+  header.masthead h1, header.masthead .h1 {
+    font-size: 2rem;
   }
 }
 

@@ -1,7 +1,7 @@
 (function() {
   "use strict"; // Start of use strict
 
-  var mainNav = document.querySelector('#mainNav');
+  var mainNav = document.querySelector('.navbar-light');
 
   if (mainNav) {
 

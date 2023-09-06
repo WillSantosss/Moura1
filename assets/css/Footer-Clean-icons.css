@@ -32,6 +32,23 @@
   --bs-icon-size: 2.5rem;
 }
 
+.bs-icon.bs-icon-primary.itaim-bibi {
+  color: #131416;
+  background: #fbfbfb;
+}
+
+.bs-icon.bs-icon-primary.itaim-bibi:hover {
+  color: #ffffff;
+  background: rgb(19,20,22);
+  border: 2px solid #fff;
+}
+
+.bs-icon.bs-icon-primary.portugal:hover {
+  color: #ffffff;
+  background: #bababa;
+  border: 2px solid #fff;
+}
+
 .bs-icon.bs-icon-primary {
   color: var(--bs-white);
   background: var(--bs-primary);
